@@ -1,0 +1,55 @@
+.carousel-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+
+  .title {
+    font: "Roboto", sans-serif;
+    font-size: 36px; /* Default for large screens */
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
+    @media (max-width: 768px) {
+      font-size: 28px; /* Adjust for tablets */
+    }
+
+    @media (max-width: 480px) {
+      font-size: 22px; /* Adjust for mobile */
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-slide {
+    width: 100%;
+    max-height: 500px; /* Prevents video from getting too large */
+    object-fit: cover; /* Ensures the video fills the space without distortion */
+    border-radius: 10px;
+
+    @media (max-width: 768px) {
+      max-height: 400px; /* Smaller video on tablets */
+    }
+
+    @media (max-width: 480px) {
+      max-height: 300px; /* Smaller video on mobile */
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+  }
+
+  .swiper-pagination-bullet {
+    background: white;
+  }
+}

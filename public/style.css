@@ -1,0 +1,35 @@
+
+
+.cursor {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #b63b1c;
+  position: absolute;
+  pointer-events: none;
+  /* transition: all 0.1s linear; */
+}
+
+.cursor::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  padding: 14px;
+  top: -15px;
+  left: -15px;
+  border: 1px solid #b63b1c;
+  position: absolute;
+  animation: cursorHover 0.5s infinite linear alternate;
+}
+
+@keyframes cursorHover {
+  from {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  to {
+    transform: scale(1.3);
+    opacity: 0.3;
+  }
+}
