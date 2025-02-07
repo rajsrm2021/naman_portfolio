@@ -18,8 +18,8 @@ const Footer = () => {
 
           <h2>Naman shah</h2>
           <p>
-            Hi, I am a graphic designer and a 1st year student at srm
-            university.
+            Hi, I pause photos, let animations play, and design hits rewind just
+            for fun!
           </p>
         </div>
         <aside>

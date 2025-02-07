@@ -1,0 +1,64 @@
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin-top: 100px;
+
+  .title {
+    font: "Roboto", sans-serif;
+    font-size: 36px; /* Default for large screens */
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
+    @media (max-width: 768px) {
+      font-size: 28px; /* Adjust for tablets */
+    }
+
+    @media (max-width: 480px) {
+      font-size: 22px; /* Adjust for mobile */
+    }
+  }
+
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .prev {
+    left: -40px;
+  }
+
+  .next {
+    right: -40px;
+  }
+}

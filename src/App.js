@@ -10,6 +10,8 @@ import { Contact } from "./components/Contact";
 import { useState } from "react";
 // import Certificates from "./components/Certificates";
 import ViedoComponents from "./components/ViedoComponents";
+import PhotoCarousel from "./components/PhotoCarousel";
+// import PortfolioGallery from "./components/PortfolioGallery";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +22,9 @@ function App() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       {/* <Certificates /> */}
+      {/* <PortfolioGallery /> */}
       <ViedoComponents />
+      <PhotoCarousel />
       {/* <Work /> */}
       {/* <Timeline /> */}
       <Services />
