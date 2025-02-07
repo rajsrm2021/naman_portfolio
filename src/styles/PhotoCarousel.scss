@@ -3,6 +3,7 @@
   margin: auto;
   position: relative;
   margin-top: 100px;
+  margin-bottom: 100px;
 
   .title {
     font: "Roboto", sans-serif;
@@ -30,7 +31,7 @@
 
     img {
       width: 100%;
-      height: auto;
+      max-height: 500px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }

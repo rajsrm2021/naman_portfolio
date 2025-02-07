@@ -26,12 +26,15 @@ const Footer = () => {
           <h2>social media</h2>
 
           <article>
-            <a href="https://github.com/rajsrm2021" target="blank">
+            <a href="https://github.com/namansh20" target="blank">
               <AiFillGithub />{" "}
             </a>
           </article>
           <article>
-            <a href="https://www.linkedin.com/in/kumarjaiswal/" target="blank">
+            <a
+              href="https://www.linkedin.com/in/naman-shah-857b27211/"
+              target="blank"
+            >
               <AiFillLinkedin />{" "}
             </a>
           </article>

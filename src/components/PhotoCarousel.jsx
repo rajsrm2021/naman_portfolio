@@ -21,12 +21,12 @@ const PhotoCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
   };
 
   return (
-    <div className="carousel-container">
-      <h2 className="title">My Gallary</h2>
+    <div id="gallary" className="carousel-container">
+      <h2 className="title">My Gallery</h2>
       <Slider {...settings}>
         {photos.map((photo) => (
           <div key={photo.id} className="carousel-slide">
