@@ -93,7 +93,7 @@
       justify-content: center;
       align-items: center;
       overflow-x: hidden;
-      position: relative;
+
       // &::after {
       //   content: "";
       //   width: 40vmax;
@@ -105,14 +105,15 @@
       // }
 
       > img {
-        width: 35vmax; // Adjust the size as needed
+        // width: 30vmax;
+        // height: 44vmax;
+        // object-fit: contain;
+        // // border-bottom: 25px solid $color3;
+        // margin-left: -0.5rem;
+        width: 35vmax;
         height: 35vmax;
         object-fit: contain;
-        margin-left: 0; // Remove offset
-        position: absolute; // Keep it centered
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); // Center it properly
+        margin-left: 1.5rem;
       }
     }
   }
