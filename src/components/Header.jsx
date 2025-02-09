@@ -46,9 +46,9 @@ const NavContent = ({ setMenuOpen }) => (
         Work Experience
       </a>
 
-      <a onClick={() => setMenuOpen(false)} href="#contact">
+      {/* <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
-      </a>
+      </a> */}
     </div>
     <a href="mailto:namannart@gmail.com">
       <button>E-mail</button>
