@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "../styles/Carousel.scss"; // Import SCSS for styling
 import viedo from "../assets/viedo.mp4";
 import viedo1 from "../assets/video2.mp4";
-import viedo2 from "../assets/viedo3.mp4";
+// import viedo2 from "../assets/viedo3.mp4";
 
 const ViedoComponents = () => {
   return (
@@ -27,11 +27,11 @@ const ViedoComponents = () => {
             <source src={viedo1} type="video/mp4" />
           </video>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <video autoPlay loop muted className="video-slide">
             <source src={viedo2} type="video/mp4" />
           </video>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <video autoPlay loop muted className="video-slide">
             <source src={viedo} type="video/mp4" />
