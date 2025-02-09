@@ -195,6 +195,7 @@
   }
   .navBtn {
     display: block;
+    color: rgb(126, 114, 114);
   }
 }
 
@@ -248,7 +249,7 @@
 
       &:last-of-type {
         border: none;
-        >img{
+        > img {
           width: 40vmax;
           height: 40vmax;
           // border-bottom: 40px solid $color3;

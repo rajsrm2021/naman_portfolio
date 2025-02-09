@@ -7,7 +7,7 @@ import {
   AiOutlineArrowUp,
 } from "react-icons/ai";
 
-import pic from "../assets/BG123.png";
+import pic from "../assets/BG.png";
 
 const Footer = () => {
   return (

@@ -2,18 +2,18 @@ import React, { useRef } from "react";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import me from "../assets/BG123.png";
+import me from "../assets/BG.png";
 
 const Home = () => {
-  const clientCount = useRef(null);
+  // const clientCount = useRef(null);
   const projectCount = useRef(null);
 
-  const animationClientsCount = () => {
-    animate(0, 150, {
-      duration: 3,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
+  // const animationClientsCount = () => {
+  //   animate(0, 150, {
+  //     duration: 3,
+  //     onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+  //   });
+  // };
   const animationProjectsCount = () => {
     animate(0, 20, {
       duration: 3,
@@ -55,11 +55,8 @@ const Home = () => {
           />
 
           <div>
-            <a href="mailto:rajjaiswal2060@gmail.com">Contact Me</a>
-            <a
-              href="https://drive.google.com/file/d/1YRrcoHqnrkRWz2HHS2gS0sFMAThchnMI/view?usp=sharing"
-              target="blank"
-            >
+            <a href="mailto:namannart@gmail.com">Contact Me</a>
+            <a href="https://drive.google.com/" target="blank">
               Resume <BsArrowUpRight />
             </a>
           </div>
@@ -86,7 +83,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <img src={me} alt="Raj" />
+        <img src={me} alt="naman" />
       </section>
       <BsChevronDown />
     </div>
