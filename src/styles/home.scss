@@ -90,10 +90,10 @@
       border-top: 1px solid $color6_2;
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+      justify-content: center;
       align-items: center;
       overflow-x: hidden;
-
+      position: relative;
       // &::after {
       //   content: "";
       //   width: 40vmax;
@@ -105,15 +105,14 @@
       // }
 
       > img {
-        // width: 30vmax;
-        // height: 44vmax;
-        // object-fit: contain;
-        // // border-bottom: 25px solid $color3;
-        // margin-left: -0.5rem;
-        width: 32vmax;
-        height: 40vmax;
+        width: 35vmax; // Adjust the size as needed
+        height: 35vmax;
         object-fit: contain;
-        margin-left: 1.5rem;
+        margin-left: 0; // Remove offset
+        position: absolute; // Keep it centered
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); // Center it properly
       }
     }
   }
